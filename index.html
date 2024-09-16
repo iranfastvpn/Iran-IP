@@ -113,6 +113,33 @@
             margin: 0;
         }
 
+        /* Phone mockup */
+        .mockup {
+            margin: 50px 0;
+            text-align: center;
+        }
+        .phone {
+            width: 300px;
+            height: 600px;
+            background: url('android-phone-mockup.png') no-repeat center center;
+            background-size: contain;
+            position: relative;
+            display: inline-block;
+        }
+        .phone-screen {
+            position: absolute;
+            top: 50px;
+            left: 30px;
+            width: 240px;
+            height: 520px;
+            background-color: #fff;
+        }
+        .phone-screen img {
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
+
         /* Scroll Effect */
         html {
             scroll-behavior: smooth;
@@ -142,8 +169,18 @@
     <section class="hero">
         <div class="container">
             <h2>Secure, Fast & Reliable VPN for Android</h2>
-            <p>Access the internet securely and privately with Iran VPN. Bypass censorship and enjoy a fast connection anywhere in the world.</p>
+            <p>Access the internet securely and privately with <a href="https://www.iranvpn.com" target="_blank">Iran VPN</a>. Bypass censorship and enjoy a fast connection anywhere in the world.</p>
             <a href="#download" class="btn-download">Download Now</a>
+        </div>
+    </section>
+
+    <!-- Phone Mockup Section -->
+    <section class="mockup">
+        <h2>See Our App in Action</h2>
+        <div class="phone">
+            <div class="phone-screen">
+                <img src="app-screenshot.png" alt="Iran VPN App Screenshot">
+            </div>
         </div>
     </section>
 
